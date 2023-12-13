@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-gray-900);
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.9rem;
+}
+h3 {
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+h4 {
+  font-size: 1.1rem;
+}
+h5 {
+  line-height: 1.4;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1800px;
+}
+
+/* navbar starts  */
+
+nav {
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid lightgray;
+  z-index: 100;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-logo img {
+  width: 150px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.nav-menu li a {
+  color: var(--color-white);
+}
+
+.nav-menu li a:hover {
+  color: blue;
+}
+
+/* navbar ends  */
+
+/* Hero Section Starts  */
+main {
+  height: 400px;
+}
+
+/* Hero Section Starts  */
+
+/* Footer starts */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-address {
+  width: 350px;
+}
+
+.footer-logo img {
+  width: 150px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-socials img {
+  width: 25px;
+}
+
+.footer-copyright {
+  justify-content: flex-end;
+}
+
+.footer-last-text {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Footer ends */
+
+
+
+/* Media query for tablet */
+@media screen and (max-width: 768px) {
+    /* CSS styles specific for tablets */
+}
+
+/* Media query for mobile */
+@media screen and (max-width: 480px) {
+    /* CSS styles specific for mobile devices */
+}
